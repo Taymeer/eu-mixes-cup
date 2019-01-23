@@ -1,91 +1,26 @@
-* {
-  margin: 0px;
-  padding: 0px; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(/images/process.jpeg); }
 
-.container {
-  font-family: 'Kanit';
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 700px;
-  height: 120px;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding-left: 25px;
-  border: 1px solid #eeeeee;
-  background-color: #dddddd;
-  z-index: 3;
-  border: 1px solid blue; }
+.topnav {
+  overflow: hidden;
+  background-color: #FB8122; }
 
-.ttext {
-  position: absolute;
-  color: aquamarine;
-  letter-spacing: 10px;
-  font-size: 55;
-  padding: 12px; }
+.topnav a {
+  float: left;
+  color: #1D2228;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; }
 
-.curtain {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden; }
-  .curtain__wrapper {
-    width: 100%;
-    height: 100%; }
-    .curtain__wrapper input[type=checkbox] {
-      position: absolute;
-      cursor: pointer;
-      top: 50%;
-      left: 50%;
-      width: 700px;
-      height: 120px;
-      -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      padding-left: 25px;
-      z-index: 100;
-      opacity: 0; }
-      .curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--left {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        background-image: url("/images/processtop.jpg"); }
-      .curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--right {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        background-image: url("/images/processbottom.jpg"); }
-  .curtain__panel {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-image: url("https://wiki.teamfortress.com/w/images/2/21/Cp_process_b2_2.jpg");
-    color: #fff;
-    float: left;
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    -webkit-transition: all 1s ease-out;
-    transition: all 1s ease-out;
-    z-index: 2; }
-    .curtain__panel--left {
-      -webkit-box-pack: end;
-      -ms-flex-pack: end;
-      justify-content: flex-end;
-      -webkit-transform: translateY(-100%);
-      transform: translateY(-100%); }
-    .curtain__panel--right {
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
-      justify-content: flex-start;
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%); }
-  .curtain__content {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    position: absolute;
-    text-align: center;
-    z-index: 1;
-    width: 100%; }
-    .curtain__content img {
-      width: 20%; }
+.topnav a:hover {
+  background-color: #C6C4C5;
+  color: black; }
+
+.mblock {
+  background: rgba(255, 255, 255, 0.85);
+  margin-top: 12%;
+  height: 33%;
+  width: 100%; }
