@@ -110,7 +110,7 @@ img {
   transform: translateY(-50%); }
 
 .btnText {
-  padding-left: 3px;
+  padding-left: 3 v vpx;
   font-size: 29px;
   font-weight: 600;
   vertical-align: middle;
