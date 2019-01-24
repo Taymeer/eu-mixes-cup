@@ -94,44 +94,43 @@ body {
   margin-top: 10%;
   background: white;
   width: 100%;
-  height: 100%;
+  height: 105%;
 }
 
 
-.people-wrap {
 
-  margin-left: 28px;
-  display: flex;
-  align-items: center
+
+.buttoncst {
+
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 120px;
+  padding: 30px 50px;
+  display: inline-block;
+  width: 25%;
 }
-
+span {
+  font-size: 18px;
+  color: #ccc;;
+  display: block; 
+  font-weight: normal;
+   
+}
 img {
-  display: block
-  /* remove gap*/
+  vertical-align: middle; 
+  display: inline-block;
 }
-
-
-.title{
-  font-weight: 500;
+.center {  
   position: relative;
-  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.name{
-  position: relative;
-  left: 19px;
-  bottom: 23px;
-}
-
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.btnText {
+  padding-left: 3px;
+  font-size: 29px;
+  font-weight: 600;
+  vertical-align: middle; 
+  display: inline-block;
 }
